@@ -21,7 +21,7 @@ end
 def return_string_array(array)
   array_string = []
   array.each do |element|
-    array_string << element
+    array_string << element.to_s
   end
   array_string
 end
